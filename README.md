@@ -9,12 +9,12 @@ App escolar sobre doação de sangue em Porto Alegre/RS. O visual imita o app Bo
 
 ## Como instalar no Android
 
-1. Abra o link do **Pulso.apk** no navegador do celular e baixe o arquivo.
-2. Toque na notificação de download, ou abra o app **Meus Arquivos** e entre na pasta **Downloads**.
-3. Toque em **Pulso.apk**. Na primeira vez, o Android pergunta se o navegador pode instalar apps desconhecidos: toque em **Configurações**, ative **Permitir desta fonte** e volte.
-4. Toque em **Instalar** e depois em **Abrir**.
+Desde 30/09/2026, no Brasil, o Android só instala direto apps de desenvolvedor verificado. O Pulso é um APK de teste de um projeto escolar, então use um destes caminhos oficiais ([Android Developers Blog](https://android-developers.googleblog.com/2026/06/android-developer-verification.html)):
 
-É um APK de teste (debug), então o Android pode avisar que o app não vem da loja. Isso é esperado.
+- **Pelo PC, com ADB (sem espera):** ative as Opções do desenvolvedor e a **Depuração sem fio** (ou a Depuração USB), pareie com o PC e rode `adb install Pulso.apk`.
+- **Só pelo celular (fluxo avançado):** em Opções do desenvolvedor, abra **Apps de desenvolvedores não verificados** e ative a opção. Depois de reiniciar, há uma espera de **24 horas**. Passado esse prazo, baixe o APK e toque em **Instalar mesmo assim**.
+
+O passo a passo completo está no guia de instalação do projeto.
 
 ## O que o app faz
 
